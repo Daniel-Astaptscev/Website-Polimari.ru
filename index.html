@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--Meta-->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="msapplication-TileColor" content="#ffbef2">
+   <meta name="theme-color" content="#ffffff">
+   <meta name="description" content="Шарж по фото, отрисовка сюжета художником красками. Рамка в подарок. Срок: 3-7 дней."/>
+   <!--Favicon-->
+   <link rel="apple-touch-icon" sizes="180x180" href="./image/Favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./image/Favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./image/Favicon/favicon-16x16.png">
+   <link rel="manifest" href="./image/Favicon/site.webmanifest">
+   <link rel="mask-icon" href="./image/Favicon/safari-pinned-tab.svg" color="#b472c6">
+   <!--Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Alegreya:wght@400;500&family=Spectral:wght@400;500&display=swap" rel="stylesheet"> 
+   <!--Style-->
+   <link href="./css/bootstrap.min.css" rel="stylesheet">
+   <link href="./snowFlakes/snow.min.css" rel="stylesheet">
+   <link href="./css/style.css" rel="stylesheet">
+   <!--Media queries-->
+   <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width: 992px)" href="./css/style.md.css">
+   <link rel="stylesheet" media="only screen and (max-width: 767px)" href="./css/style.xs.css">
+   <!--Title-->
+   <title>Шарж по фото Самара</title>
+   <!--JavaScript-->
+   <script src="https://www.google.com/recaptcha/api.js?render=<secret-key>"></script>
+   <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('<secret-key>', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+   </script>
+</head>
+<body>
+    <!--Preloader-->
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    
+    <!--Animation-->
+    <script src="./snowFlakes/Snow.js"></script>
+    <script>
+        new Snow ({
+            icon: '<svg height="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x31_66_x2C__Heart_x2C__Love_x2C__Like_x2C__Twitter"><g><path d="M365.4,59.628c60.56,0,109.6,49.03,109.6,109.47c0,109.47-109.6,171.8-219.06,281.271    C146.47,340.898,37,278.568,37,169.099c0-60.44,49.04-109.47,109.47-109.47c54.73,0,82.1,27.37,109.47,82.1    C283.3,86.999,310.67,59.628,365.4,59.628z" style="fill:#FF7979;"/></g></g><g id="Layer_1"/></svg>',
+            showSnowBalls: false,
+            countSnowflake: 50,
+        }); // анимация падения иконок на экране
+   </script>
+  
+	<!--Header-->
+	<nav class="navbar navbar-expand-xxl bg-primary fixed-top border-bottom border-primary border-4">
+		<div class="container justify-content-center">
+			<article class="font-logo">Художник<br>Марина Полякова<br>+7 919 809 21 09</article>
+			<a class="navbar-brand" href="#"><img class="image-brand" src="./image/icon/Logo.webp" alt="Logo"></a>
+			<button class="navbar-toggler border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<section class="collapse navbar-collapse" id="navbarToggleExternalContent">
+				<ul class="nav nav-pills nav-justified">
+					<li class="nav-item">
+						<a class="nav-link" href="#Portfolio">Портфолио</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Size">Размеры</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Price">Цена</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#StepWork">Этапы</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Terms">Сроки</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Delivery">Оплата</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Review">Отзывы</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Contact">Контакты</a>
+					</li>
+					<li>
+						<button type="button" class="btn btn-nav border-2 btn-outline-primary text-nowrap me-2" data-bs-toggle="modal" data-bs-target="#Order">Заказать</button>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</nav>
+	 
+ 	<!--About me-->
+ 	<div class="container mt-0 mt-md-5 pt-5 overflow-hidden text-center">
+		<div class="row gy-1 gy-md-3">
+			<article class="col-12">
+				<h2 class="mt-2 mt-md-4 pt-5">Обо мне</h2>
+			</article>
+			<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+				<ul class="ps-0">
+					<li><p>Меня зовут <b>Марина Полякова</b> – я профессиональный художник со стажем <b>более 10 лет</b> и автор уже больше 5000 шаржей. Мои работы отличаются ярким, живописным сюжетом и настоящим портретом в шарже. Я не применяю печать на холсте и компьютерную графику! Только ручная работа от рисунка на бумаге до оформления в рамку. На моём сайте вы можете ознакомится с моим портфолио, актуальными ценами и отзывами.</p></li>
+				</ul>
+				<article class="content-center">
+					<ul class="ps-0">
+						<li class="mb-1 xs-font"><img class="icon me-2" src="./image/icon/Ok.svg" alt="icon">Бесплатные правки во время работы;</li>
+						<li class="mb-1 xs-font"><img class="icon me-2" src="./image/icon/Ok.svg" alt="icon">Живая отрисовка в разных стилях;</li>
+						<li class="mb-1 xs-font"><img class="icon me-2" src="./image/icon/Ok.svg" alt="icon">Впечатляющий подарок к любому событию;</li>
+						<li class="mb-1 xs-font"><img class="icon me-2" src="./image/icon/Ok.svg" alt="icon">Любые сюжеты и тематики для шаржей;</li>
+						<li class="mb-1 xs-font"><img class="icon me-2" src="./image/icon/Ok.svg" alt="icon">Доставка в любую точку России.</li>
+					</ul>
+				</article>
+			</div>
+			<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 content-center mb-3">
+				<section id="Carousel" class="carousel slide" data-bs-ride="carousel">
+					<section class="carousel-inner">
+						<article class="carousel-item active">
+							<img src="./image/BeforeAfter/1.webp" class="d-block w-100" alt="carousel">
+						</article>
+						<article class="carousel-item">
+							<img src="./image/BeforeAfter/2.webp" class="d-block w-100" alt="carousel">
+						</article>
+						<article class="carousel-item">
+							<img src="./image/BeforeAfter/3.webp" class="d-block w-100" alt="carousel">
+						</article>
+						<article class="carousel-item">
+							<img src="./image/BeforeAfter/4.webp" class="d-block w-100" alt="carousel">
+						</article>
+					</section>
+				</section>
+			</div>
+		</div>
+ 	</div>
+ 	
+ 	<noindex>
+	<!--Order-->
+	<div class="modal fade" id="Order" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+		  	<div class="modal-content">
+				<form class="form js-form" method="POST" action="./php/telegrambot.php" enctype="multipart/form-data">
+					<div class="modal-header bg-danger border-bottom border-primary border-4">
+						<h1 class="modal-title fs-5" id="exampleModalLabel">Оформить заказ</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+
+					<div class="modal-body bg-light">
+						<div class="row mb-3">
+							<div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6 col-xxl-6 mb-3">
+								<label class="form-label"><b>Имя:</b></label>
+								<input class="form-control input js-input" maxlength="20" id="FirstNameInput" placeholder="Как к Вам обращаться" name="FirstName">
+							</div>
+					        <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6 col-xxl-6 mb-3">
+							    <label class="form-label"><b>Контактный номер:</b></label>
+							    <input class="form-control input js-input" maxlength="11" id="PhoneInput" placeholder="Ваш телефон для связи" name="Phone">
+						    </div>
+						</div>
+					</div>
+					
+					<div class="modal-footer bg-danger border-top border-primary border-4">
+						<div class="row justify-content-end">
+						    <div class="col-8" style="line-height: 1rem;">
+				                This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and<a href="https://policies.google.com/terms"> Terms of Service</a> apply.
+						    </div>
+						    <div class="col-4 content-center">
+								<button type="submit" class="btn btn-outline-primary border-2 text-nowrap me-2">Отправить</button>
+						    </div>
+						</div>
+					</div>
+					<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+					<input name="theme" type="hidden" class="contact-form__input contact-form__input_theme"
+					value="у нас нас заявочка с сайта">
+				</form>
+		  </div>
+		</div>
+	</div>
+
+	<!--Portfolio-->
+	<span class="anchor" id="Portfolio"></span>
+	<div class="container mt-3 mt-md-5 overflow-hidden text-center">
+		<div class="row gy-3 gy-md-4 gx-2 mb-4">
+			<article class="col-12">
+				<h2 class="mt-2">Портфолио</h2>
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/1.webp" alt="image">
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+				<img class="image" src="./image/Portfolio/4.webp" alt="image">
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/7.webp" alt="image">
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/2.webp" alt="image">
+			</article>   
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/5.webp" alt="image">
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/8.webp" alt="image">
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/3.webp" alt="image">
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/6.webp" alt="image">
+			</article>
+			<article class="col-6 col-sm-6 col-lg-4 col-md-4 col-xl-4 col-xxl-4">
+			  	<img class="image" src="./image/Portfolio/9.webp" alt="image">
+			</article>
+		</div>
+	</div>
+
+ 	<!--Size-->
+	<span class="anchor" id="Size"></span>
+ 	<div class="container mt-2 mt-md-5 overflow-hidden text-center">
+		<div class="row gy-md-4">
+			<article class="col-12">
+				<h2 class="mt-2">Размеры</h2>
+			</article>
+			<article class="col-4 text-center">
+				<img class="image1" src="./image/Size/1.webp" alt="image">
+				<h5><b>Формат А3 30 x 40</b></h5>
+			</article>
+			<article class="col-4 text-center">
+				<img class="image1" src="./image/Size/2.webp" alt="image">
+				<h5><b>Формат А2 40 x 50</b></h5>
+			</article>
+			<article class="col-4 text-center">
+				<img class="image1" src="./image/Size/3.webp" alt="image">
+				<h5><b>Формат А1 50 x 70</b></h5>
+			</article>
+		</div>
+	</div>
+
+	<!--Price-->
+	<span class="anchor" id="Price"></span>
+	<div class="container mt-2 mt-md-5 overflow-hidden text-center">
+		<div class="row gy-1 gy-md-4">
+			<article class="col-12">
+				<h2 class="mt-2">Цена</h2>
+			</article>
+			<article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  content-center">
+				<p><img class="icon icon-d me-3" src="./image/icon/Price1.png" alt="icon">Выполнение срочных работ +30 % к стоимости шаржа</p>
+			</article>	
+			<article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 content-center">
+				<p><img class="icon icon-d me-3" src="./image/icon/Price2.png" alt="icon">Стоимость групповых шаржей в зависимости от кол-ва лиц</p>
+			</article>
+			<div class="row gy-1 gy-md-3">
+				<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+					<ul class="content-center">
+						<img class="icon" src="./image/icon/Price4.png" alt="icon">
+						<h6 class="mt-1">Шарж красками с прорисовкой сложного сюжета на акварельной бумаге в раме:</h6>
+						<b class="xs-font">На 1-го человека:</b>
+						<li class="xs-font">Формат А4 21 х 30 – 3500 руб.</li>
+						<li class="xs-font">Формат А3 30 х 40 – 4500 руб.</li>
+						<li class="xs-font">Формат А2 40 х 50 – 6500 руб.</li>
+						<li class="xs-font">Формат А1 50 х 70 – 8000 руб.</li>
+						<b class="mt-1 xs-font">На 2-х человек:</b>
+						<li class="xs-font">Формат А4 21 х 30 – 4500 руб.</li>
+						<li class="xs-font">Формат А3 30 х 40 – 6500 руб.</li>
+						<li class="xs-font">Формат А2 40 х 50 – 8500 руб.</li>
+						<li class="xs-font">Формат А1 50 х 70 – 10000 руб.</li>
+						<b class="mt-1 xs-font">На 3-х человек:</b>
+						<li class="xs-font">Формат А3 30 х 40 – 7500 руб.</li>
+						<li class="xs-font">Формат А2 40 х 50 – 10000 руб.</li>
+						<li class="xs-font">Формат А1 50 х 70 – 12000 руб.</li>
+						<b class="mt-1 xs-font">На 4-х человек:</b>
+						<li class="xs-font">Формат А2 40 х 50 – 12000 руб.</li>
+						<li class="xs-font">Формат А1 50 х 70 – 10000 руб.</li>
+						<li class="xs-font">Формат 60 х 80 – 18000 руб.</li>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+					<ul class="content-center">
+						<img class="icon" src="./image/icon/Price3.png" alt="icon">
+						<h6 class="mt-1">Чёрно-белый шарж простым карандашом на бумаге в раме:</h6>
+						<b class="xs-font">На 1-го человека:</b>
+						<li class="xs-font">Формат А5 15 х 20 – 1000 руб.</li>
+						<li class="xs-font">Формат А5 15 х 20 – 1000 руб.</li>
+						<li class="xs-font">Формат А3 30 х 40 – 2600 руб.</li>
+						<b class="mt-1 xs-font">На 2-х человек:</b>
+						<li class="xs-font">Формат А4 21 х 30 – 3500 руб.</li>
+						<li class="xs-font">Формат А3 30 х 40 – 4000 руб.</li>
+						<b class="mt-1 xs-font">На 3-х человек:</b>
+						<li class="xs-font">Формат А3 30 х 40 – 5000 руб.</li>
+					</ul>
+					<ul class="content-center">
+						<br>
+						<img class="icon" src="./image/icon/Price5.png" alt="icon">
+						<h6 class="mt-1">Шарж красками с простым фоном и сюжетной фигурой в раме:</h6>
+						<b class="xs-font">На 1-го человека:</b>
+						<li class="xs-font">Формат А4 21 х 30 – 2900 руб.</li>
+						<li class="xs-font">Формат А3 30 х 40 – 3500 руб.</li>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+					<ul class="content-center">
+						<img class="icon" src="./image/icon/Price6.png" alt="icon">
+						<h6 class="mt-1">Холст на подрамнике:</h6>
+						<li class="xs-font">Формат А4 21 х 30 – 700 руб.</li>
+						<li class="xs-font">Формат А3 30 х 40 – 1000 руб.</li>
+						<li class="xs-font">Формат А2 40 х 50 – 1500 руб.</li>
+						<li class="xs-font">Формат А1 50 х 70 – 2500 руб.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Step work-->
+	<span class="anchor" id="StepWork"></span>
+	<div class="container mt-2 mt-md-5">
+		<div class="row gy-4">
+			<article class="col-12">
+				<h2 class="mt-2">Этапы работы</h2>
+			</article>
+			<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+				<ul>
+					<li class="mb-3 mb-md-4 long-list">Я получаю от Вас заявку;</li>
+					<li class="mb-3 mb-md-4 long-list">Мы обговариваем с Вами все детали: тематику, стиль и сюжет портрета;</li>
+					<li class="mb-3 mb-md-4 long-list">Вы вносите предоплату в размере 30 % от стоимости шаржа;</li>
+					<li class="mb-3 mb-md-4 long-list">Я создаю предварительный эскиз;</li>
+					<li class="mb-3 mb-md-4 long-list">Мы согласовываем с Вами эскиз и все нюансы;</li>
+					<li class="mb-3 mb-md-4 long-list">Я полностью отрисовываю шарж красками;</li>
+					<li class="mb-3 mb-md-4 long-list">Присылаю Вам фотографию готовой работы для демонстрации;</li>
+					<li class="mb-3 mb-md-4 long-list">Оплачиваете остаток заказа при личном получении картины или перед отправкой через службы доставки</li>
+				</ul>
+			</div>
+			<article class="col-md-5 col-lg-5 col-xl-5 col-xxl-5 text-center">
+				<img class="image-d" src="./image/Steps.webp" alt="photo">
+			</article>
+		</div>
+	</div>
+
+	<!--Terms-->
+	<span class="anchor" id="Terms"></span>
+	<div class="container mt-2 mt-md-5 overflow-hidden text-center">
+		<div class="row gy-md-4">
+			<article class="col-12">
+				<h2 class="mt-2">Сроки</h2>
+			</article>
+			<article class="col-md-2 col-lg-3 col-xl-3 col-xxl-3 content-right">
+				<img class="icon-d" src="./image/icon/Terms.svg" 
+				alt="icon">
+			</article>
+			<article class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-9 col-xxl-9">
+				<p>Средние сроки работы над картиной от 2 до 7 дней в зависимости от загруженности.<br>Сроки обговариваются предварительно перед оплатой.</p>
+			</article>
+		</div>
+	</div>
+
+	<!--Delivery-->
+	<span class="anchor" id="Delivery"></span>
+	<div class="container mt-2 mt-md-5">
+		<div class="row gy-1 gy-md-3">
+			<article class="col-12">
+				<h2 class="mt-2">Оплата и Доставка</h2>
+			</article>
+			<article class="col-12">
+				<p>Оплата состоит из предоплаты заказа и полной оплаты заказа</p>
+			</article>
+			<article class="col-md-6 col-lg-4 col-xl-4 col-xxl-4 text-center">
+				<img class="icon-d mb-0 mb-md-3" src="./image/icon/Delivery1.png" alt="icon">
+				<p>Предоплата осуществляется двумя способами в размере 30 % от общей суммы заказа:<br>• Наличным расчетом или банковской картой при  оформлении заказа;<br>• Оплата онлайн переводом на карту Сбербанка.</p>
+			</article>
+			<article class="col-md-6 col-lg-4 col-xl-4 col-xxl-4 text-center">
+				<img class="icon-d mb-0 mb-md-3" src="./image/icon/Delivery2.png" alt="icon">
+				<p>Внесение второй части от общей суммы производится Вами при получении картины:<br>• Наличным расчетом или банковской картой при получении заказа лично;<br>• При получении заказа курьерской доставкой онлайн переводом</p>
+			</article>
+			<article class="col-md-6 col-lg-4 col-xl-4 col-xxl-4 text-center">
+				<img class="icon-d mb-0 mb-md-3" src="./image/icon/Delivery3.png" alt="icon">
+				<p>• Доставка осуществляется службами: Почта России, СДЭК, Боксберри;<br>• Доставка возможна в пункт выдачи или курьером на дом</p>
+			</article>
+			<article class="col-12">
+				<p><img class="icon-d me-3" src="./image/icon/Delivery4.png" alt="icon">Со второго заказа вы получаете постоянную скидку 10 %</p>
+			</article>
+		</div>
+	</div>
+
+	<!--Review-->
+	<span class="anchor" id="Review"></span>
+	<div class="container mt-2 mt-md-5 overflow-hidden text-center">
+		<div class="row gy-2 gy-md-4">
+			<article class="col-12">
+				<h2 class="mt-2">Отзывы</h2>
+			</article>
+			<section id="multiCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				<section class="carousel-inner">
+					<article class="carousel-item active">
+						<div class="row no-gutters">
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/1.webp">
+							</article>
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/2.webp">
+							</article>
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/3.webp">
+							</article>
+						</div>
+					</article>
+					
+					<article class="carousel-item">
+						<div class="row no-gutters">
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/4.webp">
+							</article>
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/5.webp">
+							</article>
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/6.webp">
+							</article>
+						</div>
+					</article>
+
+					<article class="carousel-item">
+						<div class="row no-gutters">
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/7.webp">
+							</article>
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/8.webp">
+							</article>
+							<article class="col-4">
+								<img class="img-fluid" src="./image/Review/9.webp">
+							</article>
+						</div>
+					</article>
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<!--Contact-->
+	<span class="anchor" id="Contact"></span>
+	<div class="container mt-4 mt-md-5">
+		<div class="row gy-1 gy-md-4">
+			<article class="col-12">
+				<h2 class="mt-2">Контакты</h2>
+			</article>
+			<article class="col-7 mb-4 mb-md-0">
+				<iframe class="border border-danger rounded border-3" src="https://yandex.ru/map-widget/v1/?um=constructor%3A7efd58770257b1cfb9f2a9f47489bb2be6b6df56e0847be5da4dddee40d600ff&amp;source=constructor" width=100% height=100% frameborder="0"></iframe>
+			</article>
+			<article class="col-5 mt-5 mb-4 mb-md-5 content-center">
+				<p>
+					<b>Адрес:</b><br>г. Самара проспект Металлургов дом 71<br> 
+					<br><b>Часы работы:</b><br>с 10:00 до 22:00<br><br>
+					<b>Телефон:</b><br><a class="phone-link" href="tel:+79198092109">+7 919 809 21 09</a><br><br>
+					<a href="mailto:krasnia@yandex.ru" target="_blank"><img class="icon me-1 me-md-2" src="./image/icon/Contact1.svg" alt="icon"></a>
+					<a href="viber://chat?number=+79198092109" target="_blank"><img class="icon me-1 me-md-2 ms-1 ms-md-2" src="./image/icon/Contact2.svg" alt="icon"></a>
+					<a href="https://api.whatsapp.com/send?phone=79198092109" target="_blank"><img class="icon me-1 me-md-2 ms-1 ms-md-2" src="./image/icon/Contact3.svg" alt="icon"></a>
+				</p>
+			</article>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<nav class="navbar mt-2 mt-md-5 bg-primary border-top border-primary border-4 pb-0">
+		<div class="container justify-content-end">
+			<p class="font-footer">
+				<b>All rights reserved 2023-2024.</b>
+				<b class="me-1">Designed by D.A. and website icons:</b>
+				<a href="https://github.com/Daniel-Astaptscev" target="_blank"><img class="icon-mini" src="./image/icon/Footer1.svg" alt="icon"></a>
+				<a href="https://icons8.com/" target="_blank"><img class="icon-mini" src="./image/icon/Footer2.svg" alt="icon"></a>
+			</p>
+		</div>
+	</nav>
+    </noindex>
+        
+	<!--JavaScript-->
+	<script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="./js/validation.js"></script>
+	
+	<!--Preloader-->
+	<script>
+	    $(window).on('load', function() {
+         $('.preloader').fadeOut().end().delay(400).fadeOut('slow');
+    });
+	</script>
+
+	<!--Min size button-->
+	<script>
+	    jQuery(($) => {
+        if ($(window).width() >= 768) {
+            $('.btn-nav').addClass('btn-lg');
+        }
+    });
+    </script>
+</body>
+</html>
