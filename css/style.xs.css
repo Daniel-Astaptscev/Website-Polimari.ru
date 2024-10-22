@@ -1,0 +1,96 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+   p, li { 
+       font-size: 16px;
+       line-height: 17px;
+	}
+
+   .xs-font {
+       font-size: 14px;
+	}
+	
+	.xss-font {
+       font-size: 12px;
+	}
+	
+   .icon {
+       width: 32px;
+       height: 32px;
+   }
+   
+   h2 {
+       font-size: 26px;
+   }
+
+   h5 {
+       font-size: 12px;
+   }
+
+   .image-brand {
+       width: 80px;
+       height: 63px;
+   }
+
+    .font-logo {
+        font-size: 20px;
+    }
+    
+   .font-footer { 
+       font-size: 8px;
+   }
+
+   .icon-mini {
+       width: 16px;
+       height: 16px;
+   }
+
+    .icon-d, .image-d {
+        display: none;
+   }
+
+   h6 {
+       font-size: 14px;
+   }
+
+    .navbar-toggler-icon {
+       width: 24px;
+       height: 24px;
+   }
+   
+   .carousel#Carousel {
+       height: 180px !important;
+       width: 144px !important;
+   }
+
+   .image {
+       width: 140px;
+       height: 194px;
+   }
+   
+   .image1 {
+       width: 102px;
+       height: 240px;
+   }
+
+    .long-list:before {
+        width: 24px;
+        height: 24px;
+    }
+   
+   /* li */
+    .long-list {
+        padding-left: 3em; /* здесь регулируется расстояние между иконкой и текстом */
+    }
+
+    .long-list:before {
+        display: inline-block; /* это нужно, чтобы можно было управлять шириной и высотой элемента */
+        width: 32px;
+        height: 32px;
+        left: 0px; /* этими значениями выставляйте иконку относительно элемента списка */
+        top: -5px;
+    }
+    
+    .preloader__image {
+  top: 50%;
+  left: 35%;
+    }
+}

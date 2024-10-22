@@ -1,0 +1,337 @@
+/* Global */
+body {
+   font-family: 'Alegreya', serif;
+   font-family: 'Alegreya SC', serif;
+   font-family: 'Spectral', serif;
+   background-image: url(../../image/Background/Mainbody.webp); 
+   background-size: cover;
+}
+
+.phone-link {
+   text-decoration: none;
+   color: #000;
+}
+
+.phone-link:hover {
+   color: #9400D3;
+}
+
+a {
+   text-decoration: none;    
+}
+
+/* Fonts: h1-n6 */ 
+h2 {
+   font-size: 48px;
+}
+
+h1 {
+   color: #000;
+   font-family: Alegreya SC;
+   font-style: normal;
+}
+
+h2, h5 {
+   color: #000;
+   text-align: center;
+   font-family: Alegreya SC;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 40px; 
+}
+
+h6 {
+   color: #000;
+   text-align: center;
+   font-family: Spectral;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+/* Fonts: li and text */ 
+li {
+   list-style-type: none; /* Убираем маркеры */
+}
+
+.font-footer { 
+   color: #732b92;
+   text-align: justify;
+   font-family: Alegreya SC;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+}
+
+p, li { 
+   color: #000;
+   text-align: justify;
+   font-family: Spectral;
+   font-style: normal;
+   font-weight: 400;
+}
+   
+label, .form-label {
+   color: #000;
+   font-family: Spectral;
+   font-style: normal;
+   font-size: 18px;
+}
+
+.small-text {
+   color: #000;
+   font-style: normal;
+   font-size: 14px;
+}
+
+/* Forms */
+.form-control {
+	border-color: #6E0977 !important;
+	box-shadow: none !important;
+}
+
+/* Anchor */
+span.anchor {
+   margin-top: -6em; /* height of nav */
+   display: block;
+   height: 6em; /* height of nav */
+   visibility: hidden;
+   position: relative;
+}
+
+/* Icons */ 
+
+.icon, .icon-d {
+   width: 48px;
+   height: 48px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../../image/icon/Menu.png) !important;
+}
+
+.icon-mini {
+   width: 32px;
+   height: 32px;
+}
+
+/* Containers */ 
+.content-center {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-right {
+   text-align: right;
+}
+
+/* Border and Background */ 
+.border-primary {
+   border-color:#6E0977 !important;
+}
+
+.border-danger {
+   border-color:#882091cb !important;
+}
+
+.bg-primary {
+   background: rgb(208,140,192) !important;
+   background: radial-gradient(circle, rgb(219, 152, 204) 0%, rgba(237,179,231,1) 100%) !important;
+}
+
+.bg-danger {
+   background: rgb(255, 158, 178) !important;
+}
+
+.bg-light {
+   background: rgba(255, 225, 231, 0.849) !important;
+}
+
+/* Buttons */ 
+.btn-outline-primary {
+   color: #f9dcff !important;
+   background-color: #f080d998 !important; 
+   background-image: none !important;
+   border-color: #B834BB !important;
+}
+
+.btn-outline-primary:hover {
+   color: #9400D3 !important;
+   background-color: #ffbef2d0 !important;
+   border-color: #B834BB !important;
+}
+
+.btn-outline-primary:disabled {
+   color: #000000 !important;
+   background-color: #746075 !important;
+}
+
+.btn-close {
+    box-shadow: none !important;
+}
+
+/* Other */ 
+.font-logo {
+   color: #000;
+   text-align: center;
+   font-family: Alegreya SC;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px; 
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+/* Navbar */ 
+.nav-link {
+   color: #f9dcff;
+   text-align: center;
+   font-family: Alegreya;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.nav-link:hover {
+   color: #9400D3;
+}
+
+.input.error {
+    border: thick double #32a1ce;
+}
+
+/* Images */
+.image, .image-d {
+   width: 360px;
+   height: 454px;
+   flex-shrink: 0;
+   box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.60); /* Тень */
+}
+
+.image1 {
+   width: 152px;
+   height: 420px;
+}
+
+.image-brand {
+	width: 140px;
+	height: 113px;
+}
+	
+/* Carousels */
+.carousel#Carousel {
+   height: 454px !important;
+   width: 360px !important;
+   overflow: hidden;
+   box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.60); 
+}
+
+.carousel-inner#Carousel {
+   overflow: visible;
+}
+
+.carousel-inner#Carousel img {
+   left: 50%;
+   max-width: none !important;
+   height: auto;
+   width: 100%;
+   position: absolute;
+   top: 230px;
+   transform: translate(-50%,-50%);
+}
+
+.carousel-inner#multiCarousel .carousel-item#multiCarousel, .active#multiCarousel, .carousel-inner#multiCarousel, .carousel-item-next#multiCarousel, .carousel-inner#multiCarousel, .carousel-item-prev#multiCarousel {
+	display: flex;
+}
+
+.carousel-inner#multiCarousel, .carousel-item-right#multiCarousel, .active#multiCarousel, .carousel-inner#multiCarousel, .carousel-item-next#multiCarousel {
+	transform: translateX(25%);
+}
+
+.carousel-inner#multiCarousel, .carousel-item-left#multiCarousel, .active#multiCarousel, .carousel-inner#multiCarousel, .carousel-item-prev#multiCarousel {
+	transform:translateX(-25%);
+}
+
+.carousel-inner#multiCarousel, .carousel-item-right#multiCarousel, .carousel-inner#multiCarousel, .carousel-item-left#multiCarousel {
+	transform:translateX(0);
+}
+  
+/* li */
+.long-list {
+   position: relative;
+   padding-left: 3em; /* здесь регулируется расстояние между иконкой и текстом */
+}
+
+.long-list:before {
+   content: "";
+   display: inline-block; /* это нужно, чтобы можно было управлять шириной и высотой элемента */
+   width: 48px;
+   height: 48px;
+   background: url(../../image/icon/Sqok.svg) 0 0 /cover no-repeat;
+   position: absolute;
+   left: 0; /* этими значениями выставляйте иконку относительно элемента списка */
+   top: -11px;
+}
+
+.navbar-toggler {
+	color: #ffbef2d0; 
+	background-color: #f080d998 !important; 
+	border-color: #B834BB !important;
+}
+
+/* Preloader */ 
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,235,255,1) 35%, rgba(255,251,255,1) 100%);
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 128px;
+  height: 128px;
+  background: url('../../image/preloader.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+/* Media queries */
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+	/* Portfolio */
+	.image {
+      width: 200px;
+      height: 254px;
+	}
+}
+	
+@media screen and (min-width: 993px) {
+	/* Block header */
+   p, li { 
+		font-size: 20px;
+      line-height: 25px;
+	}
+
+   /* Price */
+   h6 {
+      font-size: 18px;
+   }
+}

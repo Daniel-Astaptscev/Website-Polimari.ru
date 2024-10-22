@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	/* Block header */
+   p, li { 
+		font-size: 18px;
+      line-height: 22px;
+	}
+
+   .icon {
+      width: 32px;
+      height: 32px;
+   }
+
+   h2 {
+      font-size: 40px;
+   }
+
+   h5 {
+      font-size: 16px;
+   }
+
+   .image-brand {
+      width: 130px;
+      height: 103px;
+   }
+
+   /* Footer */
+   .font-footer { 
+      font-size: 12px;
+   }
+
+   .icon-mini {
+      width: 32px;
+      height: 32px;
+   }
+
+   /* Portfolio */
+   .image {
+      width: 200px;
+      height: 254px;
+   }
+
+   .image1 {
+      width: 102px;
+      height: 320px;
+   }
+
+   /* Price */
+   h6 {
+      font-size: 18px;
+   }
+
+   /* Carousel */
+   .carousel#Carousel {
+      height: 254px !important;
+      width: 200px !important;
+   }
+
+   /* Steps */
+   .long-list:before {
+      width: 32px;
+      height: 32px;
+   }
+}
